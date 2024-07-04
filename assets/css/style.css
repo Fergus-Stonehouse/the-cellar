@@ -1,7 +1,7 @@
 /* favicons */
 
-#welcome h1 {
-    background: url() no-repeat center/cover;
+body {
+    background: url(../images/cellar-door2.jpg) no-repeat top center/cover;
     width:100%;
     
 }
