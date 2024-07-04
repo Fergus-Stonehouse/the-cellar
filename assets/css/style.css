@@ -40,10 +40,15 @@ h1 {
 nav{
     text-decoration: none;
     text-align:center;
+    text-transform: uppercase;
+    font-size: 75%;
+    padding:20px;
+    line-height: 30px;
 }
 
 footer {
     color:#000000;
     text-align: center;
+    display:flex;
 
 }
