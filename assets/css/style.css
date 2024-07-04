@@ -49,6 +49,6 @@ nav{
 footer {
     color:#000000;
     text-align: center;
-    display:flex;
-
+    display:block;
 }
+
