@@ -1,11 +1,19 @@
 /* favicons */
 
+/*  Asterix Wildcaard selector to override defauilt styles added by the browser */
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/*  General Styling  */
 body {
     text-align:justify;
-    text-decoration:none;
-    margin:0;
     color:#fafafa;
-    
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
 }
 
 
@@ -30,9 +38,12 @@ h1 {
 }
 
 nav{
-    
+    text-decoration: none;
+    text-align:center;
 }
 
 footer {
     color:#000000;
+    text-align: center;
+
 }
