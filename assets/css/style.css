@@ -56,16 +56,29 @@ h4 {
     background-color:#000000;
 }
 
+p {
+    color:#fafafa;
+    padding-top:10px;
+    text-align: center;
+}
 
 nav{
+    display:flex;
     width:100%;
     padding:2px;
     background-color:burlywood;
-    text-transform: uppercase;
+    flex-wrap: wrap;
     text-decoration: none;
     top:100%;
     list-style-type: none;
     color:#000000;
+}
+nav div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:2px;
+    margin-bottom:2px;
+    justify-content: space-evenly;
 }
 
 #menu {
