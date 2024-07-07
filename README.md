@@ -6,7 +6,7 @@
 - The Cellar provides information on the games that are played and about Roleplaying.
 - 
 
-## Tble of Contents
+## Table of Contents
 
 <details>
 <summry>Click here for Table of Contents</summry>
