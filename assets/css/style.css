@@ -65,6 +65,7 @@ nav{
     text-decoration: none;
     top:100%;
     list-style-type: none;
+    color:#000000;
 }
 
 #menu {
@@ -100,4 +101,5 @@ nav{
 #social-media i {
     padding: 5%;
     color:#000000;
+    font-size: 200%;
 }
