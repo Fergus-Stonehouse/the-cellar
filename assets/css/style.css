@@ -18,32 +18,53 @@ body {
     
     /* Generic styling */
     color: #fafafa;
-    font-family:'Chakra+Petch', serif;
+    font-family: 'Chakra+Petch', sans-serif;
+}
 
-    /*  headers */
-    h1 {
-        padding:20px 0 100px 20px;
-    }   
-    h4 {
-        text-align: inherit;
-    }
+/*  headers */
+h1 {
+    width:100%;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Chakra+Petch', sans-serif;
+    text-decoration: none;
+    justify-content: center;
+}
+
+h4 {
+    text-align: center;
+    line-height: 30px;
+    width:100%;
+    background-color: burlywood;
 }
 
 /* Header */
 header {
     text-decoration: none;
     background-color: #000000;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    text-align: center;
+    width:100%;
+    justify-content: space-between;
+    align-items:baseline;
 }
 
-#welcome {
-    
+nav{
+    width:100%;
+    padding:2px;
+    background-color:burlywood;
+    text-transform: uppercase;
+    text-decoration: none;
+    top:100%;
 }
 
-
-#welcome p {
-    padding: 220px 0 20px 20px;
+#menu {
+    flex-direction:row;
+    list-style-type:none;
+    letter-spacing:2px;
+    text-align:justify;
+    width:100%
 }
 
 #cellar-door {
@@ -53,31 +74,17 @@ header {
     
 }
 
-nav{
-    padding:10px;
-    background-color:burlywood;
-    display:flex;
-    flex-wrap:no-wrap;
-    text-transform: uppercase;
-    text-decoration: none;
-    
-}
-
-#menu {
-    list-style-type:none;
-    letter-spacing:5px;
-    text-align:justify;
-    width:100%
-}
-
-
 /* Footer  */
 #social-media {
-    color: #000000;
+    width:100%;
     text-align: center;
-    background-color: burlywood;
-    padding: 5px 0;
+    padding: 10px 0;
+    display:flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
+#social-media i {
+    padding: 5%;
+    color:#000000;
+}
