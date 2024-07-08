@@ -23,7 +23,15 @@ h1, h5 {
     font-family: 'Chakra Petch', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: darkgreen;
+}
+
+h4 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: lightgreen;
+    padding: 5px;
+    margin-left:10px;
+    
 }
 
 /* Header */
