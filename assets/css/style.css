@@ -19,6 +19,13 @@ body {
     font-family: 'Chakra Petch', sans-serif;
 }
 
+h1, h5 {
+    font-family: 'Chakra Petch', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -37,13 +44,6 @@ header a {
     color: inherit;
 }
 
-h1, h5 {
-    font-family: 'Chakra Petch', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -55,7 +55,7 @@ h1, h5 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #252525;
 }
 
 /* Navbar with dropdown menu */
@@ -65,9 +65,10 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #252525;
     display: none;
     top: 100%;
+    text-align:right;
 }
 
 /* Nav toggle */
@@ -85,13 +86,14 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: darkgray;
     /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
+    flex:auto;
+    margin-top: 45px;
 }
 
 /* Footer */
+/*  Create Community to wrap the rest of the Footer together  */
 #community {
     display:flex;
     width:100vw;
@@ -111,4 +113,35 @@ main {
     color: darkgreen;
     justify-content: space-around;
     font-size: 200%;
+}
+
+/*  Media query for tablets and larger (768px<) - code used from Love Running  */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
+
+/*  Large devices (laptops and larger (992px<) also used from Love Running  */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
