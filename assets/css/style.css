@@ -23,16 +23,17 @@ h1, h5 {
     font-family: 'Chakra Petch', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: darkgreen;
+    color: forestgreen;
 }
 
-h4 {
+h2, h3{
     font-family: 'Chakra Petch', sans-serif;
-    color: lightgreen;
+    color:yellow;
     padding: 5px;
     margin-left:10px;
-    
+    text-decoration: none;
 }
+
 
 /* Header */
 header {
@@ -96,15 +97,26 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex:auto;
-    margin-top: 45px;
+    margin-top: 30px;
 }
 
 /*  The Gamers Background Image  */
 #the-gamers {
     height:400px;
     width:100vw;
-    background: url(../images/playing-games.webp) no-repeat center/cover;
+    background: url(../images/playing-games.webp) no-repeat top center/cover;
 }
+
+#the-gamers h3 {
+    display:flex;
+    justify-content: right;
+    padding:0 10px;
+    text-align: center;
+    margin-top: 340px;
+    color:forestgreen;
+}
+
+
 
 /*  Footer  */
 /*  Create Community to wrap the rest of the Footer together  */
@@ -151,6 +163,12 @@ main {
     .nav-toggle-label {
         display: none;
     }
+
+    /*  Resizing The Gamers image */
+    #the-gamers {
+        height: 800px;
+        display:block;
+    }    
 }
 
 /*  Large devices (laptops and larger (992px<) also used from Love Running  */
