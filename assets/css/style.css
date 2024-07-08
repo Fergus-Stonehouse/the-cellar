@@ -84,15 +84,21 @@ nav {
     font-size: 2rem;
 }
 
-/* Main content */
+/*  Main content  */
 main {
-    background-color: darkgray;
     /* Make main element take up any surplus space to push footer down */
     flex:auto;
     margin-top: 45px;
 }
 
-/* Footer */
+/*  The Gamers Background Image  */
+#the-gamers {
+    height:400px;
+    width:100vw;
+    background: url(../images/playing-games.webp) no-repeat center/cover;
+}
+
+/*  Footer  */
 /*  Create Community to wrap the rest of the Footer together  */
 #community {
     display:flex;
