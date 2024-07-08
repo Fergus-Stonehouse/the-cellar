@@ -8,128 +8,107 @@
     box-sizing: border-box;
 }
 
-/*  General Styling  */
+/* General styles */
 body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
     
-    /* Generic styling */
-    color: burlywood;
-    font-family: 'Chakra+Petch', sans-serif;
+    /* Generic project styles */
+    color: #000;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 /* Header */
 header {
-    text-decoration: none;
-    background-color: burlywood;
-    text-align: center;
-    width:100%;
-    z-index:99;
-    display:flex;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
     justify-content: space-between;
-    align-items:baseline;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
 
-/*  Headings */
-h1 {
-    font-family: 'Chakra+Petch', sans-serif;
+h1, h5 {
+    font-family: 'Chakra Petch', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#000000;
+    color: #252525;
 }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu li {
+#menu > li {
     margin-bottom: 1em;
 }
 
-
 .active {
-    border-bottom: 1px solid #fafafa;
+    border-bottom: 1px solid #3a3a3a;
 }
 
-p {
-    color:#fafafa;
-    padding-top:10px;
-    text-align: left;
-}
-
-/* Navigation Section */
+/* Navbar with dropdown menu */
 nav {
-    position:absolute;
-    background-color: #fafafa;
-    width:100%;
-    left:0;
-    padding:0 1rem;
-    box-shadow: 0 2px 2px #000000;
-    top: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
 }
 
-/*  Navbar Dropdown Toggle  */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
 
-#navbar {
-    display:none;
+#nav-toggle {
+    display: none;
 }
 
-.navbar-label {
-    font-size:2rem;
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
-nav a {
-    text-decoration: none;
-    color: inherit;
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 
-
-nav li {
-    list-style-type: none;
-    color:#000000;
-    text-decoration: none;
-}
-
-/* Hero Image */
-#cellar-door {
-    background: url(../images/playing-games.webp) no-repeat center/cover;
-    width: 100vw;
-    height: 400px;
-    
-}
-
-/* Footer  */
-h5 {
+/* Footer */
+#community {
+    display:flex;
+    width:100vw;
+    padding: 10px;
+    flex-wrap:wrap;
     text-align: center;
-    line-height: 30px;
-    width:100%;
-    background-color:#000000;
 }
 
 #social-media {
-    width:100%;
-    text-align: center;
-    padding: 10px 0;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type: none;
-    color:#000000;
 }
 
 #social-media i {
-    padding: 5%;
-    color:#000000;
+    padding: 0 1rem;
+    color: darkgreen;
+    justify-content: space-around;
     font-size: 200%;
 }
