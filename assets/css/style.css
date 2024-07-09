@@ -45,7 +45,7 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    
 }
 
 header a {
@@ -116,7 +116,24 @@ main {
     color:forestgreen;
 }
 
+/*  The Games page  */
+#games-table {
+    flex-direction: column;
+    padding:10px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+}
 
+#games th {
+    font-size: small;
+}
+
+#games td {
+    font-family: sans-serif;
+    font-size: smaller;
+}
 
 /*  Footer  */
 /*  Create Community to wrap the rest of the Footer together  */
