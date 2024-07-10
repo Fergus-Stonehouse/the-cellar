@@ -32,59 +32,26 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-dice-d20"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="game-on.html">Game On!</a></li>
                 <li><a href="the-games.html">The Games</a></li>
-                <li><a href="join-us.html" class="active">Join Us</a></li>
+                <li><a href="join-us.html">Join Us</a></li>
             </ul>
         </nav>
     </header>
 
+
     <!-- Main Content  -->
     <main>
-        <!-- Join Us Form -->
-        <section id="join-us">
-            <form id="signup" action="thanks.html">
-                <h2>Join the Players!</h2>
-                <p>(Membership is not required to have a go!)</p>
-                <!--  Name and email address  -->
-                <label for="first-name">First Name</label>
-                <input type="text" name="first_name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last_name" id="last-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email_address" id="email-address" class="text-input" required>
-                <br>
-                <!--  Choice of game(s)  -->
-                <div class="game-buttons">
-                    <div>
-                        <label for="dnd">Dungeons & Dragons</label>
-                        <input type="radio" name="gaming_preference" id="road" value="road" required checked>
-                    </div>
-                    <div>
-                        <label for="trail">Eclipse Phase</label>
-                        <input type="radio" name="gaming_preference" id="trail" value="trail" required>
-                    </div>
-                    <div>
-                        <label for="both">Monte Cook's Cypher Sytem</label>
-                        <input type="radio" name="gaming_preference" id="both" value="both" required>
-                    </div>
-                    
-                    <div>
-                        <label for="trail">Trail</label>
-                        <input type="radio" name="gaming_preference" id="trail" value="trail" required>
-                    </div>
-                    <div>
-                        <label for="both">Both</label>
-                        <input type="radio" name="gaming_preference" id="both" value="both" required>
-                    </div>
-                
-                </div>
-                <button type="submit" class="join-button">Let's Run!</button>
-            </form>
+        <!--  Thank You page  -->
+        <section id="thanks">
+            <h3>Thank You!</h3>
+            <hr>
+            <h5 id="Contact">We will get you signed up as a Player imminently</h5>
+            <hr>
+            <h5 id="join-in">Do you want to see if you can <a href="game-on.html">join a game</a> in progress?</h5>
         </section>
+
     </main>
 
     <!--  Footer  -->
