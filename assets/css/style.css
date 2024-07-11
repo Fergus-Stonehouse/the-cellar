@@ -1,20 +1,20 @@
 /* Google Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*  Asterix Wildcard selector to override defauilt styles added by the browser */
+/*-------------------------------  Asterix Wildcard selector to override defauilt styles added by the browser -----------------------------------------------------------------------*/
 * {
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
 
-/* General styles */
+/*----------------------------------------------------------------------- General styles -----------------------------------------------------------------------*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     
-    /* Generic project styles */
+    /*----------------------------------------------------------------------- Generic project styles -----------------------------------------------------------------------*/
     color: #000;
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -35,7 +35,7 @@ h2, h3{
 }
 
 
-/* Header */
+/*----------------------------------------------------------------------- Header -----------------------------------------------------------------------*/
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -67,7 +67,7 @@ header a {
     border-bottom: 1px solid #252525;
 }
 
-/* Navbar with dropdown menu */
+/* -----------------------------------------------------------------------Navbar with dropdown menu -----------------------------------------------------------------------*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -80,7 +80,7 @@ nav {
     text-align:right;
 }
 
-/* Nav toggle */
+/* -----------------------------------------------------------------------Nav toggle -----------------------------------------------------------------------*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -93,14 +93,14 @@ nav {
     font-size: 2rem;
 }
 
-/*  Main content  */
+/*-----------------------------------------------------------------------  Main content  -----------------------------------------------------------------------*/
 main {
-    /* Make main element take up any surplus space to push footer down */
+    /*------------------------------------- Make main element take up any surplus space to push footer down ---------------------------------------------------------*/
     flex:auto;
     margin-top: 30px;
 }
 
-/*  The Gamers Background Image  */
+/*-----------------------------------------------------------------------  The Gamers Background Image  -----------------------------------------------------------------------*/
 #the-gamers {
     height:400px;
     width:100vw;
@@ -116,8 +116,8 @@ main {
     color:forestgreen;
 }
 
-/*  The Games page  */
-/*  The Games Table will list the Games and a short description  */
+/*  -----------------------------------------------------------------------The Games page  -----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------  The Games Table will list the Games and a short description  ---------------------------*/
 #games-table {
     flex-direction: column;
     padding:2px;
@@ -144,8 +144,52 @@ main {
     border: 1px solid #000;
 }
 
-/*  Footer  */
-/*  Create Community to wrap the rest of the Footer together  */
+/*-----------------------------------------------------------------------  Join Us Page  -------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------  Thanks Page  -------------------------------------------------------------------------------*/
+#thanks {
+    /*--------------------------------------------------Image Creator: Chronamut - Credit: Chronamut on DeviantArt ------------------------------------------------------*/
+    background:url(../images/thanks.jpg) no-repeat center/cover;
+    flex-direction:column;
+    width: 100vw;
+    height: 600px;
+    
+}
+
+#thanks h3 {
+    color:goldenrod;
+    font-family:'Chakra Petch', sans-serif;
+    text-decoration: none;
+    flex: grow 1;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#message {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    color:#ffffff;
+    font-family:'Chakra Petch', sans-serif;
+    text-decoration: none;
+}
+
+#contact h5 {
+    margin-top:50px;
+
+}
+
+#join-in h5 {
+    
+    margin-top: 50px;
+}
+
+/*-----------------------------------------------------------------------  Footer  -------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------  Create Community to wrap the rest of the Footer together  ----------------------------------*/
 #community {
     display:flex;
     width:100vw;
@@ -167,7 +211,7 @@ main {
     font-size: 200%;
 }
 
-/*  Media query for tablets and larger (768px<) - code used from Love Running  */
+/*--------------------------------------  Media query for tablets and larger (768px<) - code used from Love Running  ------------------------------------------------------*/
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
@@ -190,14 +234,14 @@ main {
         display: none;
     }
 
-    /*  Resizing The Gamers image */
+    /*  -----------------------------------------------------------------------Resizing The Gamers image -----------------------------------------------------------------------*/
     #the-gamers {
         height: 800px;
         display:block;
     }    
 }
 
-/*  Large devices (laptops and larger (992px<) also used from Love Running  */
+/*---------------------------------------------------  Large devices (laptops and larger (992px<) also used from Love Running  -------------------------------------------*/
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
