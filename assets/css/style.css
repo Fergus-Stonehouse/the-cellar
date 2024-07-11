@@ -159,33 +159,39 @@ main {
 }
 
 #thanks h3 {
-    color:goldenrod;
+    color:darkred;
     font-family:'Chakra Petch', sans-serif;
     text-decoration: none;
     flex: grow 1;
     text-align: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 350px;
 }
 
 #message {
-    margin-top: 50px;
     text-align: center;
     justify-content: center;
-    color:#ffffff;
     font-family:'Chakra Petch', sans-serif;
     text-decoration: none;
+    padding:10px;
 }
 
-#contact h5 {
-    margin-top:50px;
-
+#message a {
+    text-decoration: none;
+    color:red;
+    border: 1px solid #ffffff;
 }
 
-#join-in h5 {
-    
-    margin-top: 50px;
+#contact {
+    color: lightcoral;
+    padding:20px;
+}
+
+#join-in {
+    color:lightcoral;
+    padding:20px;
+    text-decoration: none;
 }
 
 /*-----------------------------------------------------------------------  Footer  -------------------------------------------------------------------------------------*/
