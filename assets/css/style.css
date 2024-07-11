@@ -31,7 +31,6 @@ h2, h3{
     color:yellow;
     padding: 5px;
     margin-left:10px;
-    text-decoration: none;
 }
 
 
@@ -145,9 +144,29 @@ main {
 }
 
 /*-----------------------------------------------------------------------  Join Us Page  -------------------------------------------------------------------------------*/
+#join-us {
+    display:flex;
+    background: url(../images/cellar-door2.jpg) no-repeat bottom right/cover;
+    width:100vw;
+    height:450px;
+    
+}
 
+form {
+    color: #000;
+    width:100%;
+    margin-top:380px;
+    padding:20px
+}   
 
+form h2 {
+    padding:10px;
+    color: green;
+}
 
+form p {
+    margin-bottom:10px;
+}
 /*-----------------------------------------------------------------------  Thanks Page  -------------------------------------------------------------------------------*/
 #thanks {
     /*--------------------------------------------------Image Creator: Chronamut - Credit: Chronamut on DeviantArt ------------------------------------------------------*/

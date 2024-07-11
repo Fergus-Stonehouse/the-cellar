@@ -47,46 +47,52 @@
             <form id="signup" action="thanks.html">
                 <h2>Join the Players!</h2>
                 <p>(Membership is not required to have a go!)</p>
+                <br>
                 <!-------------------------------------------------------------------  Name and email address  ---------------------------------------------------->
-                <label for="first-name">First Name</label>
+                <label for="first-name">First Name  ----></label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required>
                 <br>
-                <label for="last-name">Last Name</label>
+                <label for="last-name">Last Name ----></label>
                 <input type="text" name="last_name" id="last-name" class="text-input" required>
                 <br>
-                <label for="email-address">Email Address</label>
+                <label for="email-address">Email Address -></label>
                 <input type="email" name="email_address" id="email-address" class="text-input" required>
                 <br>
+                <hr>
                 <!-------------------------------------------------------------------  Choice of game(s)  ------------------------------------------------------------------->
                 <div class="game-buttons">
                     <div>
                         <label for="dnd">Dungeons & Dragons</label>
                         <input type="radio" name="gaming_preference" id="dnd" value="dnd" required checked>
                     </div>
+                    <br>
                     <div>
                         <label for="ep">Eclipse Phase</label>
                         <input type="radio" name="gaming_preference" id="ep" value="ep" required>
                     </div>
+                    <br>
                     <div>
                         <label for="cs">Monte Cook's Cypher Sytem</label>
                         <input type="radio" name="gaming_preference" id="cs" value="cs" required>
                     </div>
-                    
+                    <br>
                     <div>
                         <label for="ss">SilCore System</label>
                         <input type="radio" name="gaming_preference" id="ss" value="ss" required>
                     </div>
+                    <br>
                     <div>
                         <label for="wow">World of Darkness</label>
                         <input type="radio" name="gaming_preference" id="wow" value="wow" required>
                     </div>
+                    <br>
                     <div>
                         <label for="afmbe">All Flesh Must Be eaten</label>
                         <input type="radio" name="gaming_preference" id="afmbe" value="afmbe" required>
                     </div>
                                
                 </div>
-                <button type="submit" class="join-button">Let's Run!</button>
+                <button type="submit" class="join-button">Enter The Cellar</button>
             </form>
         </section>
     </main>
