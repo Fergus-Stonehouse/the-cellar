@@ -400,18 +400,19 @@ form p {
 }
 
 /*-----------------------------------------------------------------------  Footer  -------------------------------------------------------------------------------------*/
-footer {
-    position:relative;
-}
 /*-----------------------------------------------------------------------  Create Community to wrap the rest of the Footer together  ----------------------------------*/
 #community {
     background-color: #ffffff;
     display:flex;
-    width:100vw;
-    padding: 10px;
-    flex-wrap:wrap;
+    width:100%;
+    padding: 1em;
     text-align: center;
     justify-content: center;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+
 }
 
 #social-media {
@@ -425,8 +426,7 @@ footer {
     padding: 0 1rem;
     color: darkgreen;
     justify-content: space-around;
-    font-size: 200%;
-}
+    font-size: 200%;}
 
 /*--------------------------------------  Media query for tablets and larger (768px<) - code used from Love Running  ------------------------------------------------------*/
 @media screen and (min-width: 768px) {
