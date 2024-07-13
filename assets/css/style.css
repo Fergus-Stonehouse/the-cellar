@@ -251,7 +251,7 @@ main {
     display:flex;
     background: url(../images/cellar-door2.jpg) no-repeat bottom right/cover;
     width:100vw;
-    height:450px;
+    height:100vw;
     
 }
 
@@ -277,7 +277,6 @@ form p {
     flex-direction:column;
     width: 100vw;
     height: 600px;
-    
 }
 
 #thanks h3 {
@@ -288,7 +287,11 @@ form p {
     text-align: center;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 350px;
+    margin-bottom: 300px;
+}
+
+.message-box {
+    border:2px solid white;
 }
 
 #message {
@@ -297,7 +300,7 @@ form p {
     font-family:'Chakra Petch', sans-serif;
     text-decoration: none;
     padding:10px;
-}
+    font-size: large;}
 
 #message a {
     text-decoration: none;
@@ -308,12 +311,15 @@ form p {
 #contact {
     color: lightcoral;
     padding:20px;
+    background-color:rgb(0, 0, 0, 0.7);
 }
 
 #join-in {
     color:lightcoral;
-    padding:20px;
+    padding:20px 50px;
     text-decoration: none;
+    background-color:rgb(0, 0, 0, 0.7);
+
 }
 
 /*-----------------------------------------------------------------------  Footer  -------------------------------------------------------------------------------------*/
