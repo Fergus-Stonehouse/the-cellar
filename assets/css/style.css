@@ -31,6 +31,7 @@ h2, h3{
     color:yellow;
     padding: 5px;
     margin-left:10px;
+    max-width: 90%;
 }
  h4 {
     text-align:center;
@@ -120,6 +121,58 @@ main {
     text-align: center;
     margin-top: 340px;
     color:forestgreen;
+}
+
+/*  ----------------------------------------------------------------------  What is Roleplaying?  ---------------------------------------------------------------*/
+#why-roleplay {
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    margin-top:60px;
+    text-align: justify;
+}
+
+#why-roleplay h5 {
+    text-align: center;
+    justify-content: center;
+    color:brown;
+    padding:5px 2px;
+    margin:2px;
+}
+
+#why-roleplay p {
+    background-color: rgb(0,0,0, 0.5);
+    color:#ffffff;
+}
+#what {
+    padding:5px 2px;
+    margin:2px;
+    max-width: 90%;
+}
+
+#why {
+    padding:5px 2px;
+    margin:2px;
+    max-width: 90%;
+}
+
+#why li {
+    list-style-type: none;
+    max-width: 90%;
+}
+
+#how {
+    padding:5px 2px;
+    margin:2px;
+}
+
+#how p {
+    max-width: 90%;
+}
+
+#why-rpg {
+    background-color: rgb(0,0,0, 0.5);
+    color:#ffffff;
 }
 
 /*  ----------------------------------------------------------------------  Game On! Page  -----------------------------------------------------------------------*/
