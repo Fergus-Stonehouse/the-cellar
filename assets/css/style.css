@@ -118,8 +118,22 @@ main {
 
 /*  ----------------------------------------------------------------------  Game On! Page  -----------------------------------------------------------------------*/
 /*----------------------------------------------------------------  Game On page gets players in to the games  ----------------------------------------------------*/
+#discord-channel {
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    max-height:fit-content;
+    align-items:center;
+    justify-content: center;
+    margin-top:50px;
+}
 
-
+#channel {
+    padding: 0 1rem;
+    color: darkgreen;
+    justify-content: space-around;
+    font-size: 500%;
+}
 
 /*  -----------------------------------------------------------------------  The Games page  -----------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------  The Games Table will list the Games and a short description  ---------------------------*/
