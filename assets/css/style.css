@@ -117,7 +117,7 @@ main {
 
 /*  -----------------------------------------------------------------------The Games page  -----------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------  The Games Table will list the Games and a short description  ---------------------------*/
-body #dice {
+#dice {
     background: url(../images/dice.jpeg) no-repeat center/cover;
     width:100%;
     height:100%;
@@ -127,7 +127,6 @@ body #dice {
     flex-direction: column;
     padding:2px;
     flex-wrap: wrap;
-    align-items: left;
     width: 100vw;
     justify-content: space-between;
     margin-top: 50px;
@@ -231,6 +230,9 @@ form p {
 }
 
 /*-----------------------------------------------------------------------  Footer  -------------------------------------------------------------------------------------*/
+footer {
+    margin-top: auto;
+}
 /*-----------------------------------------------------------------------  Create Community to wrap the rest of the Footer together  ----------------------------------*/
 #community {
     background-color: #ffffff;
