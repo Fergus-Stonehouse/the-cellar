@@ -110,8 +110,9 @@ main {
 /*-----------------------------------------------------------------------  The Gamers Background Image  -----------------------------------------------------------------------*/
 #the-gamers {
     height:400px;
-    width:100vw;
+    max-width:100vw;
     background: url(../images/playing-games.webp) no-repeat top center/cover;
+    padding:0 2px;
 }
 
 #the-gamers h3 {
@@ -147,18 +148,17 @@ main {
 #what {
     padding:5px 2px;
     margin:2px;
-    max-width: 90%;
+    width: 95%;
 }
 
 #why {
     padding:5px 2px;
     margin:2px;
-    max-width: 90%;
+    width: 95%;
 }
 
 #why li {
     list-style-type: none;
-    max-width: 90%;
 }
 
 #how {
@@ -167,7 +167,7 @@ main {
 }
 
 #how p {
-    max-width: 90%;
+    width: 95%;
 }
 
 #why-rpg {
