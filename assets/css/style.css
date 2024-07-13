@@ -335,7 +335,7 @@ main {
 form {
     color: #000;
     width:100%;
-    margin-top:380px;
+    margin-top:310px;
     padding:20px
 }   
 
@@ -347,6 +347,11 @@ form h2 {
 form p {
     margin-bottom:10px;
 }
+
+.join-button {
+    padding:1rem;
+    margin-bottom:50px;
+}
 /*-----------------------------------------------------------------------  Thanks Page  -------------------------------------------------------------------------------*/
 #thanks {
     /*--------------------------------------------------Image Creator: Chronamut - Credit: Chronamut on DeviantArt ------------------------------------------------------*/
@@ -354,6 +359,7 @@ form p {
     flex-direction:column;
     width: 100vw;
     height: 600px;
+    margin-bottom:75px;
 }
 
 #thanks h3 {
@@ -412,7 +418,7 @@ form p {
     bottom: 0;
     right: 0;
 	z-index: 3;
-
+    border:1px solid #000;
 }
 
 #social-media {
@@ -423,10 +429,10 @@ form p {
 }
 
 #social-media i {
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     color: darkgreen;
-    justify-content: space-around;
-    font-size: 200%;}
+    font-size: 225%;
+}
 
 /*--------------------------------------  Media query for tablets and larger (768px<) - code used from Love Running  ------------------------------------------------------*/
 @media screen and (min-width: 768px) {
