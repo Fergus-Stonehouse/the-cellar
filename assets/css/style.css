@@ -173,6 +173,7 @@ main {
 #why-rpg {
     background-color: rgb(0,0,0, 0.5);
     color:#ffffff;
+    margin-bottom: 100px;
 }
 
 /*  ----------------------------------------------------------------------  Game On! Page  -----------------------------------------------------------------------*/
@@ -223,6 +224,7 @@ main {
 #pcorgm {
     display:flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .pc {
@@ -270,11 +272,11 @@ main {
     width: 100vw;
     justify-content: space-between;
     margin-top: 50px;
-    height: 100vw;
+    height: 100vw;}
+
+#games {
     background-color:rgb(0,0,0, 0.7);
 }
-
-
 
 #games th {
     margin:10px 5px;
