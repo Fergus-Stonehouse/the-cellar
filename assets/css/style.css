@@ -102,7 +102,7 @@ nav {
 /*-----------------------------------------------------------------------  Main content  -----------------------------------------------------------------------*/
 main {
     /*------------------------------------- Make main element take up any surplus space to push footer down ---------------------------------------------------------*/
-    flex:auto;
+ 
     margin-top: 30px;
 }
 
@@ -110,10 +110,12 @@ main {
 /*-----------------------------------------------------------------------  The Gamers Background Image  -----------------------------------------------------------------------*/
 #the-gamers {
     height:400px;
-    max-width:100vw;
-    background: url(../images/playing-games.webp) no-repeat top center/cover;
+    width:100%;
+    /*-------------------------------------------------------------  Image source unknown  -------------------------------------------------------------------------------*/
+    background: url(../images/playing-games.webp) no-repeat center/cover;
     padding:0 2px;
 }
+
 
 #the-gamers h3 {
     display:flex;
@@ -260,6 +262,7 @@ main {
 /*  -----------------------------------------------------------------------  The Games page  -----------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------  The Games Table will list the Games and a short description  ---------------------------*/
 #dice {
+    /*--------------------------------------------------------- Creator: rawpixel.com - Credit: rawpixel.com  -----------------------------------------------------*/
     background: url(../images/dice.jpeg) no-repeat center/cover;
     width:100%;
     height:100%;
@@ -459,16 +462,48 @@ form p {
         display: none;
     }
 
-    /*  -----------------------------------------------------------------------Resizing The Gamers image -----------------------------------------------------------------------*/
-    #the-gamers {
-        height: 800px;
-        display:block;
-    }    
+    /*------------------------------------------------------------------------  Main  Content  --------------------------------------------------------------------------*/
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 50px;
+    }
+
+    /*------------------------------------------------------------------------  Game On Page  ----------------------------------------------------------------------------*/
+    #gm-image {
+        background: url(../images/Gary-Gygax.jpeg) no-repeat top center/cover;
+    }
+    
+    /*------------------------------------------------------------------------ Join Us Page  ----------------------------------------------------------------------------*/
+    #join-us {
+    background: url(../images/cellar-door2.jpg) no-repeat center right/cover;
+    position:fixed;
+    max-height: 786px;
+    }
+
+    #thanks {
+    background:url(../images/thanks.jpg) no-repeat top center/cover;
+    flex-direction:column;
+    width: 100vw;
+    height: 600px;
+    margin-bottom:75px;
+    }
 }
 
 /*---------------------------------------------------  Large devices (laptops and larger (992px<) also used from Love Running  -------------------------------------------*/
 @media screen and (min-width: 992px) {
+    /*------------------------------------------------------  Create hover funtion for laptop and pc  --------------------------------------------------------------------*/
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #thanks h3 {
+            color:red;
+            font-family:'Chakra Petch', sans-serif;
+            text-decoration: none;
+            flex: grow 1;
+            text-align: center;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 500px;
     }
 }
