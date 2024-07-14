@@ -480,6 +480,10 @@ form p {
     max-height: 786px;
     }
 
+    form {
+        color:#ffffff;
+    }
+
     #thanks {
     background:url(../images/thanks.jpg) no-repeat top center/cover;
     flex-direction:column;
