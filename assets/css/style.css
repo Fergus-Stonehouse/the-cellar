@@ -102,8 +102,7 @@ nav {
 /*-----------------------------------------------------------------------  Main content  -----------------------------------------------------------------------*/
 main {
     /*------------------------------------- Make main element take up any surplus space to push footer down ---------------------------------------------------------*/
- 
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 /*----------------------------------------------------------------------  Index / Home Page  --------------------------------------------------------------------------------*/
@@ -112,7 +111,7 @@ main {
     height:400px;
     width:100%;
     /*-------------------------------------------------------------  Image source unknown  -------------------------------------------------------------------------------*/
-    background: url(../images/playing-games.webp) no-repeat center/cover;
+    background: url(../images/playing-games.webp) no-repeat top center/cover;
     padding:0 2px;
 }
 
@@ -122,7 +121,7 @@ main {
     justify-content: center;
     padding:0 10px;
     text-align: center;
-    margin-top: 340px;
+    margin-top: 375px;
     color:forestgreen;
 }
 
@@ -470,7 +469,7 @@ form p {
 
     /*------------------------------------------------------------------------  Game On Page  ----------------------------------------------------------------------------*/
     #gm-image {
-        background: url(../images/Gary-Gygax.jpeg) no-repeat top center/cover;
+        background: url(../images/Gary-Gygax.jpeg) no-repeat center top/cover;
     }
     
     /*------------------------------------------------------------------------ The Games Page  ----------------------------------------------------------------------------*/
