@@ -473,11 +473,18 @@ form p {
         background: url(../images/Gary-Gygax.jpeg) no-repeat top center/cover;
     }
     
+    /*------------------------------------------------------------------------ The Games Page  ----------------------------------------------------------------------------*/
+    #dice {
+        background: url(../images/dice.jpeg) no-repeat bottom center/cover;
+        width:100%;
+        max-height:768px;
+    }
+
     /*------------------------------------------------------------------------ Join Us Page  ----------------------------------------------------------------------------*/
     #join-us {
-    background: url(../images/cellar-door2.jpg) no-repeat center right/cover;
-    position:fixed;
-    max-height: 786px;
+        background: url(../images/cellar-door2.jpg) no-repeat center right/cover;
+        position:fixed;
+        max-height: 786px;
     }
 
     form {
@@ -485,11 +492,11 @@ form p {
     }
 
     #thanks {
-    background:url(../images/thanks.jpg) no-repeat top center/cover;
-    flex-direction:column;
-    width: 100vw;
-    height: 600px;
-    margin-bottom:75px;
+        background:url(../images/thanks.jpg) no-repeat top center/cover;
+        flex-direction:column;
+        width: 100vw;
+        height: 600px;
+        margin-bottom:75px;
     }
 }
 
@@ -502,12 +509,6 @@ form p {
 
     #thanks h3 {
             color:red;
-            font-family:'Chakra Petch', sans-serif;
-            text-decoration: none;
-            flex: grow 1;
-            text-align: center;
-            justify-content: center;
-            margin-top: 50px;
             margin-bottom: 500px;
     }
 }
