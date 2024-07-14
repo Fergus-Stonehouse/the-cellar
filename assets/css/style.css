@@ -38,7 +38,7 @@ h2, h3{
     padding:5px;
     font-family: 'Chakra Petch', sans-serif;
     text-transform:uppercase;
-    color: blue;
+    color: lightseagreen;
  }
 
 /*----------------------------------------------------------------------- Header -----------------------------------------------------------------------*/
@@ -208,10 +208,10 @@ main {
 #needs {
     display:flex;
     justify-content: center;
-    background:url(../images/game-stuff.jpg) no-repeat center/cover;
+    background:url(../images/dice2.jpg) no-repeat center/cover;
 }
 #needs h2 {
-    color: red;
+    color: darkred;
     text-align:center;
 }
 #needs p {
