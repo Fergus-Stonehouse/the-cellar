@@ -31,9 +31,9 @@ h2, h3{
     color:yellow;
     padding: 5px;
     margin-left:10px;
-    max-width: 90%;
     text-decoration: none;
     background-color: rgb(0,0,0, 0.5);
+    width:90%;
 }
 
  h4 {
@@ -181,7 +181,16 @@ main {
 #why-rpg {
     background-color: rgb(0,0,0, 0.5);
     color:#ffffff;
-    margin-bottom: 100px;
+}
+
+/*  ------------------------------------------------------  Section for Embeded YouTube Video  ---------------------------------------------------------*/
+#intro {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:350px;
+    margin-bottom: 150px;
 }
 
 /*  ----------------------------------------------------------------------  Game On! Page  -----------------------------------------------------------------------*/
@@ -292,7 +301,8 @@ main {
     width: 100vw;
     justify-content: space-between;
     margin-top: 50px;
-    height: 100vw;}
+    height: 100vw;
+}
 
 #games {
     background-color:rgb(0,0,0, 0.7);
@@ -508,6 +518,10 @@ form p {
         max-height:500px;
     }
 
+    #our-games {
+        max-width: 768px;
+    }
+    
     /*------------------------------------------------------------------------ Join Us Page  ----------------------------------------------------------------------------*/
     #join-us {
         background: url(../images/cellar-door2.jpg) no-repeat center right/cover;
