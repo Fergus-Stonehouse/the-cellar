@@ -32,13 +32,17 @@ h2, h3{
     padding: 5px;
     margin-left:10px;
     max-width: 90%;
+    text-decoration: none;
+    background-color: rgb(0,0,0, 0.5);
 }
+
  h4 {
     text-align:center;
     padding:5px;
     font-family: 'Chakra Petch', sans-serif;
     text-transform:uppercase;
-    color: lightseagreen;
+    color: #000;
+    background-color: rgb(255, 255, 255, 0.3);
  }
 
 /*----------------------------------------------------------------------- Header -----------------------------------------------------------------------*/
@@ -115,6 +119,9 @@ main {
     padding:0 2px;
 }
 
+#the-gamers a {
+    text-decoration: none;
+}
 
 #the-gamers h3 {
     display:flex;
@@ -122,7 +129,7 @@ main {
     padding:0 10px;
     text-align: center;
     margin-top: 375px;
-    color:forestgreen;
+    /*color:forestgreen;*/
 }
 
 /*  ----------------------------------------------------------------------  What is Roleplaying?  ---------------------------------------------------------------*/
@@ -193,6 +200,7 @@ main {
     color:green;
     flex-wrap: nowrap;
     text-align:center;
+    background-color: #ffffff;
 }
 
 #channel {
@@ -207,18 +215,28 @@ main {
 /*------------------------------  Image from:  https://commons.wikimedia.org/wiki/File:Pen_Paper_And_Some_Dice_%28229884325%29.jpeg  -----------------------------------------*/
 #needs {
     display:flex;
-    justify-content: center;
-    background:url(../images/dice2.jpg) no-repeat center/cover;
+        justify-content: center;
+        background:url(../images/dnd-rules.jpg) no-repeat bottom center/cover;
+        max-height:786px;
+        max-width:100vw;
+        padding-top: 100px;
 }
+
+#requirements {
+    align-items:center;
+}
+
 #needs h2 {
-    color: darkred;
     text-align:center;
+    width:250px;
+    color:yellow;
 }
+
 #needs p {
     color:white;
-    background-color: rgb(0,0,0, 0.5);
+    background-color: rgb(0,0,0, 0.7);
     padding:5px;
-    text-align: justify;
+    text-align: center;
 }
 
 /*-------------------------------------------------------------------  Player Character or Games Maaster  ----------------------------------------------------*/
@@ -262,7 +280,7 @@ main {
 /*-----------------------------------------------------------------------  The Games Table will list the Games and a short description  ---------------------------*/
 #dice {
     /*--------------------------------------------------------- Creator: rawpixel.com - Credit: rawpixel.com  -----------------------------------------------------*/
-    background: url(../images/dice.jpeg) no-repeat center/cover;
+    background: url(../images/dice3.jpg) no-repeat center/cover;
     width:100%;
     height:100%;
 }
@@ -468,15 +486,26 @@ form p {
     }
 
     /*------------------------------------------------------------------------  Game On Page  ----------------------------------------------------------------------------*/
+    #needs {
+        display:flex;
+        justify-content: center;
+        background:url(../images/dnd-rules.jpg) no-repeat bottom center/cover;
+        max-height:786px;
+        max-width:100vw;
+        padding-top: 100px;
+    }
+    
+    
     #gm-image {
         background: url(../images/Gary-Gygax.jpeg) no-repeat center top/cover;
     }
     
     /*------------------------------------------------------------------------ The Games Page  ----------------------------------------------------------------------------*/
     #dice {
-        background: url(../images/dice.jpeg) no-repeat bottom center/cover;
+        /*------------------------------------------------------------  Image: The Dice - Source: Wikimedia Commons  -----------------------------------------------------*/
+        background: url(../images/dice3.jpg) no-repeat bottom center/cover;
         width:100%;
-        max-height:768px;
+        max-height:500px;
     }
 
     /*------------------------------------------------------------------------ Join Us Page  ----------------------------------------------------------------------------*/
