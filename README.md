@@ -194,13 +194,18 @@ The following are credits to various people and technologies that have directly 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | Main page | interactive pop-up (modal) for the about section |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_switch.asp) | Main page | interactive toggle switch |
+| [W3C](https://validator.w3.org/) | All pages | Validation |
+| [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) | All pages | Validation |
 | [YouTube](https://www.youtube.com/watch?v=WZNG8UomjSI&t=1783s) | Main page | a source to get an idea of how to lay out the page |
-| [Stack Overflow](https://stackoverflow.com/) | Main Page | additional html and css research |
+| [Stack Overflow](https://stackoverflow.com/) | Research | additional html and css research |
 | [Wikimedia](https://en.wikimedia.org/wiki/) | Game On page | Image of Gary Gygax for the image of Games Master |
-| [Dungeons & Dragons](https://dnd.wizards.com/) | Main Page | Searching for inspiration |
+| [Dungeons & Dragons](https://dnd.wizards.com/) | Multiple Pages | Searching for inspiration |
 | [Eclipse Phase](https://eclipsephase.com/) | Main Page | Searching for inspiration |
+| [The DnD Coalition](https://www.thedndcoalition.com//) | Main Page | Image of Fantasy Characters around a gaming table |
+| [Jennie Ivins](https://www.flickr.com//) | Game On | D&D Rule books and dice |
+| [psychee-ange](https://www.deviantart.com//) | Game On | Players gaming |
+| [rawpixel](https://www.rawpixel.com//) | Game On | Players gaming | on DeviantArt
+| [Chronamut](https://www.deviantart.com//) | Game On | Players gaming |
 
 ### Acknowledgements
 
