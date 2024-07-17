@@ -55,11 +55,11 @@
 
 ## Mockup Screenshots
 
-Below are two mockup images of the Your Weather website created using the "Am I Responsive" website.
+ Using the "Am I Responsive" website, here are three examples of the site showig responsivity.
 
-| Screenshot 1 | Screenshot 2 |
-| :---: | :---: |
-| ![screenshot](documentation/mockups/Am%20I%20Responsive1.png) | ![screenshot](documentation/mockups/Am%20I%20Responsive2.png) |
+| Index / Main | Join Us | The Games |
+| :---: | :---: | :---: |
+| ![screenshot](assets/documentation/mockups/mockup-index.jpg) | ![screenshot](assets/documentation/mockups/mockup-join-us.jpg) | ![screenshot](assets/documentation/mockups/mockup-the-games.jpg) |
 
 ## UX
 
@@ -182,17 +182,17 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | :---: | :---: | :---: |
 | Index | ![screenshot](assets/documentation/images/w3-org-validation-index.jpg) | Section lacks header h2-h6 warning and The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. x(16) |
 | Game On! | ![screenshot](assets/documentation/images/w3-org-validation-game-on.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
-| The Games | ![screenshot](assets/documentationimages//w3-org-validation-the-games.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
+| The Games | ![screenshot](assets/documentation/images/w3-org-validation-the-games.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
 | Join Us | ![screenshot](assets/documentation/images/w3-org-validation-join-us.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
 | Thanks | ![screenshot](assets/documentation/images/w3-org-validation-thanks.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
 
 ### CSS
 
-I have used the recommended [CSS Jigsaw Validator](assets/documentation/w3-org-validation-css.jpg) to validate all of my CSS files.
+I have used the recommended [CSS Jigsaw Validator](assets/documentation/images/w3-org-validation-css.jpg) to validate all of my CSS files.
 
 | File | Screenshot | Notes |
 | :---: | :---: | :---: |
-| style.css | ![screenshot](assets/documentation/w3c-css-validator-css.jpg) | No errors found |
+| style.css | ![screenshot](assets/documentation/images/w3-org-validation-css.jpg) | No errors found |
 
 
 ## Deployment
