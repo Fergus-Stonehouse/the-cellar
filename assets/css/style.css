@@ -396,7 +396,6 @@ form p {
     color:darkred;
     font-family:'Chakra Petch', sans-serif;
     text-decoration: none;
-    flex: grow 1;
     text-align: center;
     justify-content: center;
     margin-top: 50px;
@@ -464,7 +463,7 @@ form p {
     font-size: 225%;
 }
 
-/*------------------------------------------------------  Media query: large or landscape phones (576px and up)  --------------------------------------------------------*/
+/*------------------------------------------------------  Media query: large or landscape phones (576px<)  --------------------------------------------------------*/
 @media screen and (min-width: 576px) {
     
     /*-------------------------------------------------------------  Index  --------------------------------------------------------------------------------------*/
