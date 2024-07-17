@@ -172,7 +172,28 @@ I aahve sketched the wireframes on to a board and photographed each page.
 
 ## Testing
 
-For all testing, please refer to the [TESTING.md](TESTING.md) file.
+## Code Validation
+
+### HTML
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+
+| Page | Screenshot | Notes |
+| :---: | :---: | :---: |
+| Index | ![screenshot](assets/documentation/images/w3-org-validation-index.jpg) | Section lacks header h2-h6 warning and The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. x(16) |
+| Game On! | ![screenshot](assets/documentation/images/w3-org-validation-game-on.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
+| The Games | ![screenshot](assets/documentationimages//w3-org-validation-the-games.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
+| Join Us | ![screenshot](assets/documentation/images/w3-org-validation-join-us.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
+| Thanks | ![screenshot](assets/documentation/images/w3-org-validation-thanks.jpg) | The document is not mappable to XML 1.0 due to two consecutive hyphens in a comment warning. |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](assets/documentation/w3-org-validation-css.jpg) to validate all of my CSS files.
+
+| File | Screenshot | Notes |
+| :---: | :---: | :---: |
+| style.css | ![screenshot](assets/documentation/w3c-css-validator-css.jpg) | No errors found |
+
 
 ## Deployment
 
