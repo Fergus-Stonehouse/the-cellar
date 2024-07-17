@@ -24,12 +24,6 @@
 - [New site Users](#new-site-users)
 - [Returning Site Users](#returning-site-users)
 
-[Wireframes](#wireframes)
-
-- [Mobile Wireframes](#mobile-wireframes)
-- [Tablet Wireframes](#tablet-wireframes)
-- [Desktop Wireframes](#desktop-wireframes)
-
 [Features](#features)
 
 - [Existing Features](#existing-features)
@@ -110,40 +104,18 @@
 - As a returning site user, I would like to be able to access the Discord Channel quickly.
 - As a returning site user, I would like to be able to visit the official game websites for additional gaming resources.
 
-## Wireframes
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I aahve sketched the wireframes on to a board and photographed each page.
-
-### Mobile Wireframes
-
-| Main page | About modal | Displayed weather |
-| :---: | :---: | :---: |
-| ![screenshot](documentation/wireframes/mobile-main-page.png) | ![screenshot](documentation/wireframes/mobile-about-modal.png) | ![screenshot](documentation/wireframes/mobile-displayed-weather.png) |
-
-### Tablet Wireframes
-
-| Main page | About modal | Displayed weather |
-| :---: | :---: | :---: |
-| ![screenshot](documentation/wireframes/tablet-main-page.png) | ![screenshot](documentation/wireframes/tablet-about-modal.png) | ![screenshot](documentation/wireframes/tablet-displayed-weather.png) |
-
-### Desktop Wireframes
-
-| Main page | About modal | Displayed weather |
-| :---: | :---: | :---: |
-| ![screenshot](documentation/wireframes/desktop-main-page.png) | ![screenshot](documentation/wireframes/desktop-about-modal.png) | ![screenshot](documentation/wireframes/desktop-displayed-weather.png) |
-
 ## Features
 
 ### Existing Features
 
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
-| **Game On!** | The Game On! Page provides a fast link to the Discord Home Page and also provides newcomers with information about how to roleplay. | ![screenshot](documentation/features/modal-button.png) |
-| **The Games** | The Games page is a list of the current game in play with links to the official websites and brief description of each. | ![screenshot](documentation/features/modal.png) |
-| **Join Us** | The Join Us page is the means by which a user may register to become a Player with the site. | ![screenshot](documentation/features/input-box.png) |
-| **Thanks** | The Thanks page is simply a way of saying Thank You and provide new players the opportunity to join a game straight awa with a single click. | ![screenshot](documentation/features/search-button.png) |
-| **Footer** | The footer contains a link to various social media groups The Cellar cultivates. | ![screenshot](documentation/features/footer.png) |
+| **Index / Main** | The Main page provides a fast link to the Game On! Page | ![screenshot](assets/documentation/features/link-to-game-on.jpg) |
+| **Game On!** | The Game On! Page provides a fast link to the Discord Home Page and also provides newcomers with information about how to roleplay. | ![screenshot](assets/documentation/features/discord-button.jpg) |
+| **The Games** | The Games page is a list of the current game in play with links to the official websites and brief description of each. | ![screenshot](assets/documentation/features/game-links.jpg) |
+| **Join Us** | The Join Us page is the means by which a user may register to become a Player with the site. | ![screenshot](assets/documentation/features/join-form.jpg) |
+| **Thanks** | The Thanks page is simply a way of saying Thank You and provide new players the opportunity to join a game straight away with a single click. | ![screenshot](assets/documentation/features/thanks-page.jpg) |
+| **Footer** | The footer contains a link to various social media groups and sticks to the bottom of the screen. | ![screenshot](assets/documentation/features/community.jpg) |
 
 ### Future Features
 
@@ -233,6 +205,7 @@ The following are credits to various people and technologies that have directly 
 ### Acknowledgements
 
 - I would like to thank my Code Institute mentor, [Chris Quinn](https://github.com/10xOXR) for their support throughout the development of this project.
+- I would like to thank  [Simon Boylan](https://github.com/boderg) for the use of their My Weather Readme.md as a template.
 - I would like to thank [Code Institute](https://codeinstitute.net) for giving me the opportunity to attempt this course.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor team for all their guidance.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies.
