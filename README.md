@@ -19,6 +19,8 @@
 - [Colour Scheme](#colour-scheme)
 - [Typography](#typography)
 
+[Wireframes](#wireframes)
+
 [User Stories](#user-stories)
 
 - [New site Users](#new-site-users)
@@ -90,19 +92,18 @@
 
 - [Font Awesome](https://fontawesome.com) icons were used in The Cellaar site, for GitHub links in the footer and the Game On page.
 
-## User Stories
+## Wireframes
 
-### New Site Users
+The original plan and the sketches of each of the html pages were drawn roughtly on a board and photographed.
 
-- As a new site user, I would like to know what the site is about, so that I understand what the site does.
-- As a new site user, I would like to learn more about what Roleplaying is.
-- As a new site user, I would like to learn what games are usully being played on the Channel.
-- As a new site user, I would like to discover more about The Cellar Gaming Community.
-
-### Returning Site Users
-
-- As a returning site user, I would like to be able to access the Discord Channel quickly.
-- As a returning site user, I would like to be able to visit the official game websites for additional gaming resources.
+| Page | Screenshot |
+| :---: | :---: |
+| Original Plan | ![screenshot](assets/documentation/wireframes/wireframe-original-plan.jpg) |
+| Index | ![screenshot](assets/documentation/wireframes/wireframe-index.jpg) |
+| Game On! | ![screenshot](assets/documentation/wireframes/wireframe-game-on.jpg) |
+| The Games | ![screenshot](assets/documentation/wireframes/wireframe-the-games.jpg) |
+| Join Us | ![screenshot](assets/documentation/wireframes/wireframe-join-us.jpg) |
+| Thanks | ![screenshot](assets/documentation/wireframes/wireframe-thanks.jpg) |
 
 ## Features
 
@@ -166,6 +167,21 @@ I have used the recommended [CSS Jigsaw Validator](assets/documentation/images/w
 | :---: | :---: | :---: |
 | style.css | ![screenshot](assets/documentation/images/w3-org-validation-css.jpg) | No errors found |
 
+## User Stories
+
+### New Site Users
+
+I recruited a variety of people to assist in testing the website, family and friends, and asked some users who would likely use the site again (namely, current members of the actual Cellar Discord channel), to provide feedback. This proved useful as certain images proved making reading the text difficult on the "game-on" page.
+
+- As a new site user, I would like to know what the site is about, so that I understand what the site does.
+- As a new site user, I would like to learn more about what Roleplaying is.
+- As a new site user, I would like to learn what games are usully being played on the Channel.
+- As a new site user, I would like to discover more about The Cellar Gaming Community.
+
+### Returning Site Users
+
+- As a returning site user, I would like to be able to access the Discord Channel quickly.
+- As a returning site user, I would like to be able to visit the official game websites for additional gaming resources.
 
 ## Deployment
 
