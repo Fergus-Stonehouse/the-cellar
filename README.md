@@ -33,6 +33,14 @@
 
 [Testing](#testing)
 
+- [Code Validation](#code-validation)
+
+  - [HTML](#html)
+  - [CSS](#css)
+  - [Lighthouse](#lighthouse)
+
+- [User Stories](#user-stories)
+
 [Deployment](#deployment)
 
 - [Local Deployment](#local-deployment)
@@ -163,15 +171,21 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 I have used the recommended [CSS Jigsaw Validator](assets/documentation/images/w3-org-validation-css.jpg) to validate all of my CSS files.
 
-| File | Screenshot | Notes |
-| :---: | :---: | :---: |
-| style.css | ![screenshot](assets/documentation/images/w3-org-validation-css.jpg) | No errors found |
+| Report | Screenshot |
+| :---: | :---: |
+| style.css | ![screenshot](assets/documentation/images/w3-org-validation-css.jpg) |
+
+### Lighthouse
+
+Below is the Lighthouse Results.  The first time I ran the test, the rating was much lower and suggested that Google Chrome Extensions were impedeing the site's attributes
+
+| Lighthouse | ![screenshot](assets/documentation/lighthouse/lighthouse.jpg) |
 
 ## User Stories
 
-### New Site Users
-
 I recruited a variety of people to assist in testing the website, family and friends, and asked some users who would likely use the site again (namely, current members of the actual Cellar Discord channel), to provide feedback. This proved useful as certain images proved making reading the text difficult on the "game-on" page.
+
+### New Site Users
 
 - As a new site user, I would like to know what the site is about, so that I understand what the site does.
 - As a new site user, I would like to learn more about what Roleplaying is.
