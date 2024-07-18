@@ -78,8 +78,8 @@
 - The colours used are as follows:-
 
 - `#forestgreen` used for the primary logo and primary highlights.
-- `#yellow`, `#red` and `#blue` used for primary highlights.
-- `#blue` and `#ffffff` used for secondary text.
+- `#yellow` used for primary highlights.
+- `#ffffff` used for secondary text.
 - `#fafafa` and `#brown` used for secondary highlights.
 - `#3a3a3a` and `#252525` used for box shadows.
 - `#a0a0a0`, `#fff` and `#000` used for border lines.
